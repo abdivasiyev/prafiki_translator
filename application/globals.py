@@ -1,4 +1,4 @@
-URL = 'https://calm-depths-79117.herokuapp.com/'
+URL = 'https://stormy-refuge-69718.herokuapp.com/'
 TOKEN = '920389471:AAHJGFbPHCQ4sGFOY1BmQvQeIGz3hi9ydjw'
 YANDEX_TOKEN = 'trnsl.1.1.20200216T090652Z.69ff82988b42b1f4.8757d1dc994b15b668fd4038482eea8fafe69908'
 YANDEX_HOST = 'https://translate.yandex.net/api/v1.5/tr.json'
