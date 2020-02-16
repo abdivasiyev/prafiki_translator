@@ -49,6 +49,13 @@ def command_start(message):
     bot.send_message(chat_id=message.chat.id, text=new_message)
 
 
+@bot.message_handler(commands=['users'])
+def command_users(message):
+    bot.send_chat_action(chat_id=message.chat.id, action='typing')
+    users = User.query.count()
+    bot.send_message(chat_id=message.chat.id, text='Hozirgacha botdan ro\'yxatdan o\'tganlar: 👫{}'.format(users))
+
+
 @bot.message_handler(commands=['about'])
 def command_about(message):
     bot.send_chat_action(chat_id=message.chat.id, action='upload_photo')
